@@ -2,6 +2,11 @@
     width: 100vw;
 }
 
+
+
+
+
+
 @media (max-width: 700px) {
     .legenda {
         font-size: 2rem;
@@ -10,10 +15,27 @@
     .video {
         width: 350px;
         height: 200px;
-        
+
     }
-    .carrosseL{
+
+    .carrosseL {
         width: 350px;
         margin-left: -50px;
     }
-  }
+}
+
+
+
+@media (max-width: 380px) {
+    .video {
+        width: 300px;
+        height: 150px;
+
+    }
+
+    .carrosseL {
+        width: 300px;
+        margin-left: -36px;
+    }
+
+}
